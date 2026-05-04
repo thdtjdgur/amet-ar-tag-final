@@ -4,6 +4,8 @@ Python ROS node for AprilTag-based autonomous driving during the final AR-tag se
 
 This project controls an Xycar-class vehicle with a USB camera, detects the closest AprilTag, estimates distance and lateral offset, and adjusts steering to align the vehicle with a target path through the AR-tag zone.
 
+![AMET hackathon poster](assets/amet-poster.png)
+
 ## Overview
 
 The script subscribes to camera frames from ROS, detects AprilTags with OpenCV and `apriltag`, and publishes steering and speed commands through `xycar_motor`.
