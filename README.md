@@ -1,5 +1,12 @@
 # AMET AR Tag Final Drive
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PLATFORM-XYCAR%20%7C%20JETSON%20NANO-25344F?style=for-the-badge&labelColor=555555" alt="Platform: Xycar and Jetson Nano" />
+  <img src="https://img.shields.io/badge/SOFTWARE-PYTHON%20%2B%20ROS-0C8D7B?style=for-the-badge&labelColor=555555" alt="Software: Python and ROS" />
+  <img src="https://img.shields.io/badge/PROJECT-AUTONOMOUS%20DRIVE-C65D00?style=for-the-badge&labelColor=555555" alt="Project: Autonomous Drive" />
+  <img src="https://img.shields.io/badge/VISION-APRILTAG%20%2B%20OPENCV-1F5FDB?style=for-the-badge&labelColor=555555" alt="Vision: AprilTag and OpenCV" />
+</p>
+
 Python ROS node for AprilTag-based autonomous driving during the final AR-tag section of the 2025 AMET MAZE hackathon.
 
 This project controls an Xycar-class vehicle with a USB camera, detects the closest AprilTag, estimates distance and lateral offset, and adjusts steering to align the vehicle with a target path through the AR-tag zone.
